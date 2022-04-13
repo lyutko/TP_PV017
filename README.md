@@ -51,8 +51,8 @@
 
 
 ### *Учасники проекту*
-1. Potapchuk Dmytro
-
+1. 
+2. Potapchuk Dmytro
 
 
 
