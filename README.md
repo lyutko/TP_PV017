@@ -52,8 +52,8 @@
 
 ### *Учасники проекту*
 1. Movchanets Viacheslav
-2. Пасічник Михайло
-
+2. Potapchuk Dmytro
+3. Пасічник Михайло
 
 
 
