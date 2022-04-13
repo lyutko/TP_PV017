@@ -51,8 +51,15 @@
 
 
 ### *Учасники проекту*
+<<<<<<< HEAD
 1. 
-3. Artem Feskov
+
+=======
+1. Movchanets Viacheslav
+2. Potapchuk Dmytro
+3. Пасічник Михайло
+4. Artem Feskov
+>>>>>>> 49381602e111ea3f3e9b0f52fedac0ff5668f125
 
 
 
