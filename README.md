@@ -52,7 +52,7 @@
 
 ### *Учасники проекту*
 1. Movchanets Viacheslav
-
+2. Potapchuk Dmytro
 
 
 
