@@ -52,6 +52,7 @@
 
 ### *Учасники проекту*
 1. Movchanets Viacheslav
+2. Lopocz Nikita
 
 
 
