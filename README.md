@@ -51,7 +51,7 @@
 
 
 ### *Учасники проекту*
-1. 
+1. Movchanets Viacheslav
 
 
 
