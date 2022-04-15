@@ -54,5 +54,5 @@
 3. Пасічник Михайло
 4. Artem Feskov
 5. Lopocz Nikita
-
+6. Maksym Monakh
 
