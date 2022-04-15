@@ -53,5 +53,6 @@
 2. Potapchuk Dmytro
 3. Пасічник Михайло
 4. Artem Feskov
+5. Lopocz Nikita
 
 
