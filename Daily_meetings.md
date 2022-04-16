@@ -2,7 +2,7 @@ Date: 18.04.2022
 
 |     Ім'я       | Did today | Will do tomorrow | Blockers |
 | -------------- | --------- | ---------------- | -------- |
-| Павло          |
+| Павло          |Created project UI | Will push it
 | Нікіта-Зігфрід |
 | В'ячеслав      |Created project skeleton | Will receive new task |
 | Максим         |
