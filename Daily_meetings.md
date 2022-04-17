@@ -8,7 +8,7 @@ Date: 18.04.2022
 | Максим         |
 | Денис          |
 | Михайло        |
-| Дмитро         |
+| Дмитро         |Created database in DAL | Will receive new task |
 | Артем          |
 
 
