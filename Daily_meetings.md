@@ -9,7 +9,7 @@ Date: 18.04.2022
 | Денис          |
 | Михайло        |created Finance Page UI| Will receive new task|\
 | Дмитро         |Created database in DAL | Will receive new task |
-| Артем          |
+| Артем          |installed Windows, then was unable to work| Will recive this task|
 
 
 
