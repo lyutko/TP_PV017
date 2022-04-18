@@ -1,12 +1,12 @@
-﻿<Window x:Class="team_proj.MainWindow"
+﻿<Page x:Class="team_proj.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:team_proj"
         mc:Ignorable="d"
-      Title="MainWindow" Height="300" Width="250" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" >
-    <Window.Resources>
+      Title="MainWindow" Height="300" Width="250" >
+    <Page.Resources>
         <Style x:Key="Cmdbox" TargetType="Button">
             <Setter Property="OverridesDefaultStyle" Value="True"></Setter>
             <Setter Property="Background">
@@ -54,8 +54,8 @@
 
         </Style>
 
-    </Window.Resources>
-    <Page>
+    </Page.Resources>
+    
         <Grid >
             <Grid.RowDefinitions>
                 <RowDefinition Height="25"></RowDefinition>
@@ -124,5 +124,5 @@
              </Border>
 
         </Grid>
-    </Page>
-</Window>
+   
+</Page>
