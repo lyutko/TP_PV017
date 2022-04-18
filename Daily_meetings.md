@@ -7,7 +7,7 @@ Date: 18.04.2022
 | В'ячеслав      |Created project skeleton | Will receive new task |
 | Максим         |
 | Денис          |
-| Михайло        |
+| Михайло        |created Finance Page UI| Will receive new task|\
 | Дмитро         |Created database in DAL | Will receive new task |
 | Артем          |
 
