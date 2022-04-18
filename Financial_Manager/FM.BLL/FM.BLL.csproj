@@ -47,12 +47,18 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Interfaces\IFinanceService.cs" />
     <Compile Include="Interfaces\IUserService.cs" />
+    <Compile Include="Models\BalanceDTO.cs" />
+    <Compile Include="Models\CostDTO.cs" />
+    <Compile Include="Models\CostTypeDTO.cs" />
+    <Compile Include="Models\CurrencyDTO.cs" />
+    <Compile Include="Models\IncomeDTO.cs" />
+    <Compile Include="Models\IncomeSourceDTO.cs" />
+    <Compile Include="Models\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\FinanceMapperConfig.cs" />
+    <Compile Include="Utilities\UserInfoMapperConfig.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Utilities\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\FM.DAL\FM.DAL.csproj">
       <Project>{a45ad5b9-d86a-4ce5-b9d5-7c5044422758}</Project>

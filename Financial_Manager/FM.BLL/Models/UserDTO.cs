@@ -1,18 +1,18 @@
 ﻿using System.Collections.Generic;
 
-namespace FM.DAL.Entities
+namespace FM.BLL.Models
 {
-    public class User
+    public class UserDTO
     {
-        public User()
+        public UserDTO()
         {
-            Balances = new List<Balance>();
+            Balances = new List<BalanceDTO>();
         }
 
         public int Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
 
-        public virtual ICollection<Balance> Balances { get; set; }
+        public virtual ICollection<BalanceDTO> Balances { get; set; }
     }
 }
