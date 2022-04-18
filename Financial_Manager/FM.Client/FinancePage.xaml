@@ -11,7 +11,7 @@
         
         <StackPanel Height="70" Margin="0,0,0,380" Orientation="Horizontal">
             <Button  Background="DarkCyan" Name="ExitButton" Height="40" Margin="0,10,10,10" Width="40" BorderBrush="White">
-                <Path Data="Resources/pointer.png"></Path>
+                <Image Source="Resources/pointer.png"></Image>
             </Button>
             <TextBox  Background="DarkCyan" Name="SortTextBox" Width="200" Height="35" Margin="30,0,0,0">
             </TextBox>
