@@ -55,74 +55,74 @@
         </Style>
 
     </Window.Resources>
+    <Page>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"></RowDefinition>
+                 <RowDefinition Height="275"></RowDefinition>
+            </Grid.RowDefinitions>
 
-    <Grid >
-        <Grid.RowDefinitions>
-            <RowDefinition Height="25"></RowDefinition>
-            <RowDefinition Height="275"></RowDefinition>
-        </Grid.RowDefinitions>
+            <Border CornerRadius="5" Grid.RowSpan="2">
+                 <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FF4A505B" Offset="0.0"/>
+                        <GradientStop Color="#FF24272C" Offset="1"/>
+                    </LinearGradientBrush>
+               </Border.Background>
+            </Border>
 
-        <Border CornerRadius="5" Grid.RowSpan="2">
-            <Border.Background>
-                <LinearGradientBrush>
-                    <GradientStop Color="#FF4A505B" Offset="0.0"/>
-                    <GradientStop Color="#FF24272C" Offset="1"/>
-                </LinearGradientBrush>
-            </Border.Background>
-        </Border>
+            <Grid x:Name="toolbar" Grid.Row="0" MouseDown="ToolBar_MouseDown">
 
-        <Grid x:Name="toolbar" Grid.Row="0" MouseDown="ToolBar_MouseDown">
-
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
-                <Image x:Name="minbut" Width="15" Height="15" Margin="5,5,10,5" MouseDown="MinButton_MouseDown" >
-                    <Image.Style>
-                        <Style TargetType="{x:Type Image}">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
+                     <Image x:Name="minbut" Width="15" Height="15" Margin="5,5,10,5" MouseDown="MinButton_MouseDown" >
+                          <Image.Style>
+                             <Style TargetType="{x:Type Image}">
                             <Setter Property="Source" Value="NewFolder1\неактивне згортання.png"></Setter>
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding IsMouseOver,ElementName = minbut}" Value="true">
-                                    <Setter Property="Source" Value="NewFolder1\активне згортання.png"></Setter>
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Image.Style>
-                    <Image.Effect>
-                        <BlurEffect Radius="2"></BlurEffect>
-                    </Image.Effect>
-                </Image>
-                <Image x:Name="crosbut" Width="15" Height="15" Margin="5" MouseDown="ExitButton_MouseDown" >
-                    <Image.Style>
-                        <Style TargetType="{x:Type Image}">
-                            <Setter Property="Source" Value="NewFolder1\неактивний хрестикзакриття.png"></Setter>
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding IsMouseOver,ElementName = crosbut}" Value="true">
-                                    <Setter Property="Source" Value="NewFolder1\активний хрестикзактриття.png"></Setter>
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Image.Style>
-                    <Image.Effect>
-                        <BlurEffect Radius="2"></BlurEffect>
-                    </Image.Effect>
-                </Image>
-            </StackPanel>
+                                 <Style.Triggers>
+                                     <DataTrigger Binding="{Binding IsMouseOver,ElementName = minbut}" Value="true">
+                                          <Setter Property="Source" Value="NewFolder1\активне згортання.png"></Setter>
+                                     </DataTrigger>
+                                 </Style.Triggers>
+                             </Style>
+                          </Image.Style>
+                         <Image.Effect>
+                             <BlurEffect Radius="2"></BlurEffect>
+                         </Image.Effect>
+                     </Image>
+                    <Image x:Name="crosbut" Width="15" Height="15" Margin="5" MouseDown="ExitButton_MouseDown" >
+                         <Image.Style>
+                             <Style TargetType="{x:Type Image}">
+                                    <Setter Property="Source" Value="NewFolder1\неактивний хрестикзакриття.png"></Setter>
+                                     <Style.Triggers>
+                                         <DataTrigger Binding="{Binding IsMouseOver,ElementName = crosbut}" Value="true">
+                                             <Setter Property="Source" Value="NewFolder1\активний хрестикзактриття.png"></Setter>
+                                         </DataTrigger>
+                                     </Style.Triggers>
+                             </Style>
+                         </Image.Style>
+                         <Image.Effect>
+                                <BlurEffect Radius="2"></BlurEffect>
+                         </Image.Effect>
+                    </Image>
+                 </StackPanel>
+             </Grid>
+            <Image Grid.Row="1" VerticalAlignment="Top" Margin="50" Height="100" Source="NewFolder1\bitcoin.png"></Image>
+            <Border CornerRadius="5" Grid.Row="1" Width="200" HorizontalAlignment="Center" Margin="0,0,0,100" VerticalAlignment="Bottom">
+                <Button  Style="{StaticResource Cmdbox}" Margin="0,3,0,0">
+                     <TextBlock Margin="60,0,0,0" Text="Мої доходи"></TextBlock>
+                </Button>
+             </Border>
+             <Border CornerRadius="5" Grid.Row="1" Width="200" HorizontalAlignment="Center" Margin="0,0,0,70" VerticalAlignment="Bottom">
+                  <Button  Style="{StaticResource Cmdbox}" Margin="0,3,0,0">
+                    <TextBlock Margin="60,0,0,0" Text="Мої витрати"></TextBlock>
+                  </Button>
+             </Border>
+              <Border CornerRadius="5" Grid.Row="1" Margin="0,0,0,40" Width="200" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                  <Button  Style="{StaticResource Cmdbox}" Margin="0,3,0,0">
+                     <TextBlock Margin="60,0,0,0" Text="Налаштування"></TextBlock>
+                 </Button>
+             </Border>
+
         </Grid>
-        <Image Grid.Row="1" VerticalAlignment="Top" Margin="50" Height="100" Source="NewFolder1\bitcoin.png"></Image>
-        <Border CornerRadius="5" Grid.Row="1" Width="200" HorizontalAlignment="Center" Margin="0,0,0,100" VerticalAlignment="Bottom">
-            <Button  Style="{StaticResource Cmdbox}" Margin="0,3,0,0">
-                <TextBlock Margin="60,0,0,0" Text="Мої доходи"></TextBlock>
-            </Button>
-        </Border>
-        <Border CornerRadius="5" Grid.Row="1" Width="200" HorizontalAlignment="Center" Margin="0,0,0,70" VerticalAlignment="Bottom">
-            <Button  Style="{StaticResource Cmdbox}" Margin="0,3,0,0">
-                <TextBlock Margin="60,0,0,0" Text="Мої витрати"></TextBlock>
-            </Button>
-        </Border>
-        <Border CornerRadius="5" Grid.Row="1" Margin="0,0,0,40" Width="200" HorizontalAlignment="Center" VerticalAlignment="Bottom">
-            <Button  Style="{StaticResource Cmdbox}" Margin="0,3,0,0">
-                <TextBlock Margin="60,0,0,0" Text="Налаштування"></TextBlock>
-            </Button>
-        </Border>
-
-    </Grid>
-
+    </Page>
 </Window>
