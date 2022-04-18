@@ -10,6 +10,9 @@ namespace FM.DAL.Interfaces
     {
         IEnumerable<T> GetAll(params string[] props);
         T Get(int id);
-        void Create(T newEntity);
+        bool Create(T newEntity);
+        bool Delete(T newEntity);
+        bool Delete(int id);
+        bool Update(T Entity);
     }
 }
