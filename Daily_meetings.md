@@ -5,7 +5,7 @@ Date: 18.04.2022
 | Павло          |Created project UI | Will push it
 | Нікіта-Зігфрід |Created user login UI and will push it| Will receive new task |
 | В'ячеслав      |Created project skeleton | Will receive new task |
-| Максим         |
+| Максим         |Created Configuration UI Page | Will receive new task |
 | Денис          |
 | Михайло        |created Finance Page UI| Will receive new task|\
 | Дмитро         |Created database in DAL | Will receive new task |
