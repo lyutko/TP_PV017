@@ -6,7 +6,7 @@ namespace FM.DAL
 {
     public class ApplicationContext : DbContext
     {
-        public ApplicationContext() : base("FinancialManager")
+        public ApplicationContext() : base("defaultConnection")
         {
 
         }
