@@ -19,34 +19,70 @@ namespace FM.DAL.Repository
             _set = _dbContext.Set<T>();
         }
 
-        public void Create(T newEntity)
+        public bool Create(T newEntity)
         {
-            _set.Add(newEntity);
+            try
+            {
+                _set.Add(newEntity);
 
-            _dbContext.SaveChanges();
+                _dbContext.SaveChanges();
+
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
+            return true;
         }
      
-        public void Delete(T newEntity)
+        public bool Delete(T newEntity)
         {
-            _dbContext.Entry(newEntity).State = EntityState.Deleted;
-
-           
-
-            _dbContext.SaveChanges();
-        }
-        public void Delete(int id)
-        {
-            T realEntity = Get(id);
-            if (realEntity != null)
+            try
             {
-                _set.Remove(realEntity);
+                _dbContext.Entry(newEntity).State = EntityState.Deleted;
                 _dbContext.SaveChanges();
             }
+            catch (Exception)
+            {
+
+                return false;
+            }
+            return true;
+               
         }
-        public void SaveChange(T Entity)
+        public bool Delete(int id)
         {
-            _dbContext.Entry(Entity).State = EntityState.Modified;
-            _dbContext.SaveChanges();
+            try
+            {
+                T realEntity = Get(id);
+                if (realEntity != null)
+                {
+                    _set.Remove(realEntity);
+                    _dbContext.SaveChanges();
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+
+            }
+            return true;
+        }
+        public bool Update(T Entity)
+        {
+            try
+            {
+                _dbContext.Entry(Entity).State = EntityState.Modified;
+                _dbContext.SaveChanges();
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
+            return true;
+            
         }
         public T Get(int id)
         {
