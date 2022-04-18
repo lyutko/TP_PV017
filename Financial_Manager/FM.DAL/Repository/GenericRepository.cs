@@ -25,7 +25,7 @@ namespace FM.DAL.Repository
 
             _dbContext.SaveChanges();
         }
-       
+     
         public void Delete(T newEntity)
         {
             _dbContext.Entry(newEntity).State = EntityState.Deleted;
@@ -56,11 +56,7 @@ namespace FM.DAL.Repository
         {
             return _set.Where(predicate);
         }
-        public IEnumerable<T> GetAllTracking(params string[] props)
-        {
-            DbQuery<T> query = props.Aggregate<string, DbQuery<T>>(_set, (current, child) => current.Include(child));
-            return query.AsNoTracking().ToList();
-        }
+        
         public IEnumerable<T> GetAll(params string[] props)
         {
 
@@ -70,4 +66,7 @@ namespace FM.DAL.Repository
 
 
     }
+
+
 }
+

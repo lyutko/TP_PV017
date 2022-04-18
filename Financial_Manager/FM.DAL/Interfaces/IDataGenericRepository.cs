@@ -11,5 +11,8 @@ namespace FM.DAL.Interfaces
         IEnumerable<T> GetAll(params string[] props);
         T Get(int id);
         void Create(T newEntity);
+        void Delete(T newEntity);
+        void Delete(int id);
+        void SaveChange(T Entity);
     }
 }
