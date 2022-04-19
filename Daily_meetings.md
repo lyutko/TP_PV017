@@ -23,7 +23,7 @@ Date: 19.04.2022
 | Максим         |
 | Денис          |
 | Михайло        |
-| Дмитро         |
+| Дмитро         |Created models in BLL|Will receive new task|
 | Артем          |Make my task|Will receive new task|
 
 
