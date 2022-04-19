@@ -7,7 +7,7 @@ Date: 18.04.2022
 | В'ячеслав      |Created project skeleton | Will receive new task |
 | Максим         |Created Configuration UI Page | Will receive new task |
 | Денис          |repeated the study material | will start doing this task
-| Михайло        |created Finance Page UI| Will receive new task|\
+| Михайло        |created Finance Page UI| Will receive new task|
 | Дмитро         |Created database in DAL | Will receive new task |
 | Артем          |installed Windows, then was unable to work| Will do this task|
 
