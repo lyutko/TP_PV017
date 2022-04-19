@@ -20,7 +20,7 @@ Date: 19.04.2022
 | Павло          |
 | Нікіта-Зігфрід |
 | В'ячеслав      |Implemented DAL interfaces|Will receive new task|
-| Максим         |
+| Максим         |Start working with ViewModel class for Finance page|Will continue coding|
 | Денис          |
 | Михайло        |
 | Дмитро         |Created models in BLL|Will receive new task|
