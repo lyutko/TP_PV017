@@ -4,6 +4,12 @@ namespace FM.DAL.Entities
 {
     public class Balance
     {
+        public Balance()
+        {
+            Incomes = new List<Income>();
+            Costs = new List<Cost>();
+        }
+
         public int Id { get; set; }
         public decimal Money { get; set; }
 
