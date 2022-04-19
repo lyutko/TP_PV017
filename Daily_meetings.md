@@ -22,7 +22,7 @@ Date: 19.04.2022
 | В'ячеслав      |Implemented DAL interfaces|Will receive new task|
 | Максим         |Start working with ViewModel class for Finance page|Will continue coding|
 | Денис          |
-| Михайло        |
+| Михайло        |repeated the material for work|will start working
 | Дмитро         |Created models in BLL|Will receive new task|
 | Артем          |Make my task|Will receive new task|
 
