@@ -39,7 +39,7 @@ Date: 20.04.2022
 | Денис          |
 | Михайло        |
 | Дмитро         |
-| Артем          |
+| Артем          |Create Ui|Will receive new task|
 
 
 
