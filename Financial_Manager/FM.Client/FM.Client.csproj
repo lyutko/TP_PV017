@@ -178,6 +178,9 @@
   <ItemGroup>
     <Resource Include="Icons\NotActiveCross.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\bitcoin.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
