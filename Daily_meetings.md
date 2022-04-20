@@ -18,7 +18,7 @@ Date: 19.04.2022
 |     Ім'я       | Did today | Will do tomorrow | Blockers |
 | -------------- | --------- | ---------------- | -------- |
 | Павло          |Push UI    | Will receive new task|
-| Нікіта-Зігфрід |
+| Нікіта-Зігфрід |dealt with the git and edited the Login UI Page|Will do new task|
 | В'ячеслав      |Implemented DAL interfaces|Will receive new task|
 | Максим         |Start working with ViewModel class for Finance page|Will continue coding|
 | Денис          |
