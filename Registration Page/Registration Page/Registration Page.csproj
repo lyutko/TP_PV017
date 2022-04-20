@@ -94,5 +94,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Folder_Image\активне згортання.png" />
+    <Resource Include="Folder_Image\активний хрестикзактриття.png" />
+    <Resource Include="Folder_Image\неактивне згортання.png" />
+    <Resource Include="Folder_Image\неактивний хрестикзакриття.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
