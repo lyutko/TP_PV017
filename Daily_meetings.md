@@ -17,7 +17,7 @@ Date: 19.04.2022
 
 |     Ім'я       | Did today | Will do tomorrow | Blockers |
 | -------------- | --------- | ---------------- | -------- |
-| Павло          |
+| Павло          |Push UI    | Will receive new task|
 | Нікіта-Зігфрід |
 | В'ячеслав      |Implemented DAL interfaces|Will receive new task|
 | Максим         |Start working with ViewModel class for Finance page|Will continue coding|
