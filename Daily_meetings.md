@@ -39,7 +39,7 @@ Date: 20.04.2022
 | Денис          |
 | Михайло        |
 | Дмитро         |
-| Артем          |
+| Артем          |Completed the task| Will recieve new task|
 
 
 
