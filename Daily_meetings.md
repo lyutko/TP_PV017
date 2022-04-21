@@ -32,7 +32,7 @@ Date: 20.04.2022
 
 |     Ім'я       | Did today | Will do tomorrow | Blockers |
 | -------------- | --------- | ---------------- | -------- |
-| Павло          |Get new task| Will do it |
+| Павло          |Geted new task| Will do it |
 | Нікіта-Зігфрід |
 | В'ячеслав      |Received new task | Will work with it|
 | Максим         |
@@ -47,7 +47,7 @@ Date: 21.04.2022
 
 |     Ім'я       | Did today | Will do tomorrow | Blockers |
 | -------------- | --------- | ---------------- | -------- |
-| Павло          |
+| Павло          |Finded info about task | Will do it
 | Нікіта-Зігфрід |
 | В'ячеслав      |
 | Максим         |
