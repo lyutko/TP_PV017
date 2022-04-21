@@ -54,7 +54,7 @@ Date: 21.04.2022
 | Денис          |
 | Михайло        |
 | Дмитро         |Worked with the task|Work with the task|
-| Артем          |
+| Артем          |Worked with the task|Work with the task|
 
 
 
