@@ -38,7 +38,7 @@ Date: 20.04.2022
 | Максим         |
 | Денис          |
 | Михайло        |
-| Дмитро         |
+| Дмитро         |Learn new information|Work with the task|
 | Артем          |Completed the task| Will recieve new task|
 
 
@@ -53,7 +53,7 @@ Date: 21.04.2022
 | Максим         |
 | Денис          |
 | Михайло        |
-| Дмитро         |
+| Дмитро         |Worked with the task|Work with the task|
 | Артем          |
 
 
