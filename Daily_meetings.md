@@ -69,6 +69,6 @@ Date: 22.04.2022
 | Денис          |
 | Михайло        |
 | Дмитро         |
-| Артем          |
+| Артем          |Correct mistakes in my task|Do my task|
 
 
