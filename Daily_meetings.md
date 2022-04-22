@@ -37,7 +37,7 @@ Date: 20.04.2022
 | В'ячеслав      |Received new task | Will work with it|
 | Максим         |
 | Денис          |
-| Михайло        |
+| Михайло        |started working|will continue|
 | Дмитро         |Learn new information|Work with the task|
 | Артем          |Completed the task| Will recieve new task|
 
@@ -52,7 +52,7 @@ Date: 21.04.2022
 | В'ячеслав      |
 | Максим         |
 | Денис          |
-| Михайло        |
+| Михайло        |continued working|Will try to finish task|
 | Дмитро         |Worked with the task|Work with the task|
 | Артем          |Worked with the task|Work with the task|
 
