@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Financial_Manager.User_Ui_Login
+namespace Financial_Manager
 {
     /// <summary>
-    /// Логика взаимодействия для Login.xaml
+    /// Interaction logic for MainPage.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class MainPage : Page
     {
-        public Login()
+        public MainPage()
         {
             InitializeComponent();
         }

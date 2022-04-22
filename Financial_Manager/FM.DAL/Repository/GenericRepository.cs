@@ -69,6 +69,11 @@ namespace FM.DAL.Repository
             }
             return true;
         }
+        // <summary>
+        // test
+        // </summary>
+        //<param name="Entity"></param>
+        //<returns> test </returns>
         public bool Update(T Entity)
         {
             try
