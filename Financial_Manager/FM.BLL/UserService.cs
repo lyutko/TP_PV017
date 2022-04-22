@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FM.BLL
 {
-    public class Class1
+    public class UserServise 
     {
     }
 }

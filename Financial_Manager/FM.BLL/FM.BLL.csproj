@@ -44,7 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="FinanceService.cs" />
+    <Compile Include="UserServise.cs" />
     <Compile Include="Interfaces\IFinanceService.cs" />
     <Compile Include="Interfaces\IUserService.cs" />
     <Compile Include="Models\BalanceDTO.cs" />
