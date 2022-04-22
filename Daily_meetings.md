@@ -35,7 +35,7 @@ Date: 20.04.2022
 | Павло          |Geted new task| Will do it |
 | Нікіта-Зігфрід |
 | В'ячеслав      |Received new task | Will work with it|
-| Максим         |
+| Максим         |Programming ViewModel|Will continue|
 | Денис          |
 | Михайло        |started working|will continue|
 | Дмитро         |Learn new information|Work with the task|
@@ -50,7 +50,7 @@ Date: 21.04.2022
 | Павло          |Finded info about task | Will do it
 | Нікіта-Зігфрід |
 | В'ячеслав      |
-| Максим         |
+| Максим         |Worked with MVVM|Continue work with task|
 | Денис          |
 | Михайло        |continued working|Will try to finish task|
 | Дмитро         |Worked with the task|Work with the task|
