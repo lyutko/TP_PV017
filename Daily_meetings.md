@@ -49,7 +49,7 @@ Date: 21.04.2022
 | -------------- | --------- | ---------------- | -------- |
 | Павло          |Finded info about task | Will do it
 | Нікіта-Зігфрід |
-| В'ячеслав      |
+| В'ячеслав      |Worked with the task|Work with the task|
 | Максим         |Worked with MVVM|Continue work with task|
 | Денис          |
 | Михайло        |continued working|Will try to finish task|
@@ -64,7 +64,7 @@ Date: 22.04.2022
 | -------------- | --------- | ---------------- | -------- |
 | Павло          |
 | Нікіта-Зігфрід |
-| В'ячеслав      |
+| В'ячеслав      |Worked with the task|Work with the task|
 | Максим         |
 | Денис          |
 | Михайло        |
