@@ -16,16 +16,13 @@ using System.Windows.Shapes;
 namespace Financial_Manager
 {
     /// <summary>
-    /// Interaction logic for RegistrationPage.xaml
+    /// Interaction logic for ConfigurationPage.xaml
     /// </summary>
-    public partial class RegistrationPage : Page
+    public partial class ConfigurationPage : Page
     {
-        public RegistrationPage()
+        public ConfigurationPage()
         {
             InitializeComponent();
         }
-     
-
-       
     }
 }

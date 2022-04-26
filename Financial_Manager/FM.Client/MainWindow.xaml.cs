@@ -10,13 +10,12 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Financial_Manager
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -24,7 +23,6 @@ namespace Financial_Manager
         {
             InitializeComponent();
         }
-
         private void ExitButton_MouseDown(object sender, MouseButtonEventArgs e)
         {
             this.Close();
@@ -43,5 +41,12 @@ namespace Financial_Manager
             }
         }
 
+        private void LogoConteiner_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                this.DragMove();
+            }
+        }
     }
 }

@@ -1,0 +1,37 @@
+﻿<Page x:Class="Financial_Manager.ConfigurationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Financial_Manager"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      Title="Configuration"   WindowHeight="450" WindowWidth="800" >
+
+    <Grid Background="#ffdadada">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="375"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid x:Name="toolbar" Grid.Row="0"  Background="#FF673AB7" >
+
+
+        </Grid>
+        <Grid Grid.Row="1">
+
+            <StackPanel MinWidth="100" Margin="5,10,5,10"  VerticalAlignment="Center" Height="350" Grid.ColumnSpan="2">
+                <Image VerticalAlignment="Top" Margin="50,20,50,20" Height="120" Source="Icons\FinancialManagerLogo.png"/>
+                <TextBox x:Name="TextBoxName" materialDesign:HintAssist.Hint="Enter name" Style = "{StaticResource MaterialDesignFloatingHintTextBox}"  Margin="35,0,35,0" />
+                <TextBox x:Name="TextBoxSurname" materialDesign:HintAssist.Hint="Enter surname" Style = "{StaticResource MaterialDesignFloatingHintTextBox}" Margin="35,0,35,0"/>
+                <StackPanel x:Name="CurrencyStackPanel" Height="40" Width="310" HorizontalAlignment="Left"  Margin="35,10,10,10" Orientation="Horizontal">
+                    <Label   Content="Currency : " Style="{StaticResource MaterialDesignLabel}" Margin="0,7,250,5"/>
+                    <Button  Width="65" Height="30" Content="USD" Margin="-400,5,0,5"/>
+                    <Button  Width="65" Height="30" Content="EUR" Margin="-250,5,0,5"/>
+                    <Button  Width="65" Height="30" Content="UAH" Margin="-100,5,0,5"/>
+                </StackPanel>
+                <Button x:Name="SignUpButton"  Content="Sign Up"  Margin="35,10,35,0" Width="250" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
