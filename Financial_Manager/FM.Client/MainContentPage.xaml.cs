@@ -16,21 +16,21 @@ using System.Windows.Shapes;
 namespace Financial_Manager
 {
     /// <summary>
-    /// Interaction logic for RegistrationPage.xaml
+    /// Логика взаимодействия для MainContentPage.xaml
     /// </summary>
-    public partial class RegistrationPage : Page
+    public partial class MainContentPage : Page
     {
-        public RegistrationPage()
+        public MainContentPage()
         {
             InitializeComponent();
         }
 
-        private void btn_Register_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            TmpClass.tmpmethod(new ConfigurationPage());
+            TmpClass.tmpmethod(new MainPage());
         }
 
-        private void ExitButton_MouseDown(object sender, MouseButtonEventArgs e)
+        private void crosbut_MouseDown(object sender, MouseButtonEventArgs e)
         {
             TmpClass.main.Close();
         }
@@ -38,19 +38,6 @@ namespace Financial_Manager
         private void minbut_MouseDown(object sender, MouseButtonEventArgs e)
         {
             TmpClass.main.WindowState = WindowState.Minimized;
-        }
-
-        private void ToolBar_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ChangedButton == MouseButton.Left)
-            {
-                TmpClass.main.DragMove();
-            }
-        }
-
-        private void btn_Cansle_Click(object sender, RoutedEventArgs e)
-        {
-            TmpClass.tmpmethod(new LoginPage());
         }
     }
 }

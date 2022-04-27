@@ -15,21 +15,19 @@ using System.Windows.Shapes;
 
 namespace Financial_Manager
 {
+    
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
+           
         }
-
-        private void ExitButton_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            this.Close();
-        }
-
+        
         private void MinButton_MouseDown(object sender, MouseButtonEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
@@ -42,6 +40,30 @@ namespace Financial_Manager
                 this.DragMove();
             }
         }
+        
+        private void ExitButton_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
+       
+       
 
+        private void login_Click(object sender, RoutedEventArgs e)
+        {
+            TmpClass.main = this;
+            TmpClass.tmpmethod(new ConfigurationPage());
+        }
+
+        private void CreateButton_Click(object sender, RoutedEventArgs e)
+        {
+           
+            TmpClass.main = this;
+            TmpClass.tmpmethod(new RegistrationPage());
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

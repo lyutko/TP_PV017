@@ -1,24 +1,21 @@
-﻿<Window x:Class="Financial_Manager.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Financial_Manager"
-        mc:Ignorable="d"
-        WindowStyle="None"
-        WindowStartupLocation="CenterScreen"
-        ResizeMode="NoResize"
-        Title="MainWindow" Height="500" Width="500" Loaded="Window_Loaded">
+﻿<Page x:Class="Financial_Manager.SettingsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Financial_Manager"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="500"
+      Title="SettingsPage">
 
-    <Grid>
+    <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
             <RowDefinition Height="475"/>
         </Grid.RowDefinitions>
-        <Grid x:Name="toolbar" Grid.Row="0" Background="#FF673AB7" >
-
+        <Grid Grid.Row="0" x:Name="ToolBar" Grid.Column ="2" Background="#FF673AB7">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
-                <Image x:Name="minbut" Width="15" Height="15" Margin="5,5,10,5" MouseDown="MinButton_MouseDown" >
+                <Image x:Name="minbut" Width="15" Height="15" Margin="5,5,10,5" MouseDown="minbut_MouseDown">
                     <Image.Style>
                         <Style TargetType="{x:Type Image}">
                             <Setter Property="Source" Value="Icons\NotActiveFolding.png"></Setter>
@@ -33,7 +30,7 @@
                         <BlurEffect Radius="2"></BlurEffect>
                     </Image.Effect>
                 </Image>
-                <Image x:Name="crosbut" Width="15" Height="15" Margin="5" MouseDown="ExitButton_MouseDown" >
+                <Image x:Name="crosbut" Width="15" Height="15" Margin="5"  MouseDown="crosbut_MouseDown">
                     <Image.Style>
                         <Style TargetType="{x:Type Image}">
                             <Setter Property="Source" Value="Icons\NotActiveCross.png"></Setter>
@@ -50,21 +47,7 @@
                 </Image>
             </StackPanel>
         </Grid>
-        <StackPanel Grid.Row="1">
-            <Border Height="475"  Background="#edeff2">
-                <StackPanel>
-                    <Label FontSize="15" Content="Логін" HorizontalAlignment="Center" Margin="0,10"></Label>
-                    <Label Content="Ім'я" Margin="30,00"></Label>
-                    <TextBox Margin="30,00"></TextBox>
-                    <Label Content="Пароль" Margin="30,00"></Label>
-                    <TextBox Margin="30,00"></TextBox>
-                    <Button Click="login_Click"  x:Name="login" MinHeight="30" Content="Ввійти" Margin="0,80,0,0" Width="300" Cursor="Hand" ></Button>
-                    <Button Click="CreateButton_Click" x:Name="CreateButton"  Content="Зареєструватись" Margin="0,0,0,-50" Width="300" Cursor="Hand" />
-                </StackPanel>
-            </Border>
-        </StackPanel>
-
-   
+        <Button Click="Button_Click" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="100" Background="Aqua"></Button>
+        <TextBlock Grid.Row="1" Foreground="Black" VerticalAlignment="Center" FontSize="50" Text="Налаштування"></TextBlock>
     </Grid>
-
-</Window>
+</Page>

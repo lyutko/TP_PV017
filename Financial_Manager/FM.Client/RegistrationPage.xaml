@@ -31,9 +31,9 @@
             <ColumnDefinition ></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Grid x:Name="ToolBar" Grid.Column ="2">
+        <Grid x:Name="ToolBar" Grid.Column ="2" MouseDown="ToolBar_MouseDown">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
-                <Image x:Name="minbut" Width="15" Height="15" Margin="5,5,10,5">
+                <Image x:Name="minbut" Width="15" Height="15" Margin="5,5,10,5" MouseDown="minbut_MouseDown">
                     <Image.Style>
                         <Style TargetType="{x:Type Image}">
                             <Setter Property="Source" Value="Icons\NotActiveFolding.png"></Setter>
@@ -48,7 +48,7 @@
                         <BlurEffect Radius="2"></BlurEffect>
                     </Image.Effect>
                 </Image>
-                <Image x:Name="crosbut" Width="15" Height="15" Margin="5">
+                <Image x:Name="crosbut" Width="15" Height="15" Margin="5"  MouseDown="ExitButton_MouseDown">
                     <Image.Style>
                         <Style TargetType="{x:Type Image}">
                             <Setter Property="Source" Value="Icons\NotActiveCross.png"></Setter>
@@ -203,6 +203,7 @@
             x:Name="btn_Cansle" Content="Cancle"
             Grid.Column="0" Grid.Row="12"
             FontSize="15"
+            Click="btn_Cansle_Click"
             Command="{Binding TestBack}">
             <Button.Template>
                 <ControlTemplate>
@@ -223,7 +224,7 @@
             x:Name="btn_Register" Content="Register"
             Grid.Column="2" Grid.Row="12"
             FontSize="15"
-            Command="{Binding TestRegister}">
+            Click="btn_Register_Click">
             <Button.Template>
                 <ControlTemplate>
                     <Border x:Name="Cancle"
