@@ -9,7 +9,6 @@
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         Title="MainWindow" Height="500" Width="500" Loaded="Window_Loaded">
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
