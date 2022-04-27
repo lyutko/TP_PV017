@@ -33,7 +33,7 @@ Date: 20.04.2022
 |     Ім'я       | Did today | Will do tomorrow | Blockers |
 | -------------- | --------- | ---------------- | -------- |
 | Павло          |Geted new task| Will do it |
-| Нікіта-Зігфрід |
+| Нікіта-Зігфрід |Learn new information|Work with the task|
 | В'ячеслав      |Received new task | Will work with it|
 | Максим         |Programming ViewModel|Will continue|
 | Денис          |
